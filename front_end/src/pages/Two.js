@@ -11,7 +11,7 @@ function Two() {
   const [userData, setUserData] = useState([]);
   const callAccount = async () => {
     try {
-      const res = await fetch('api/PriceGreaterThan10000', {
+      const res = await fetch('http://localhost:5000/api/PriceGreaterThan10000', {
         method: 'GET',
         headers: {
 
