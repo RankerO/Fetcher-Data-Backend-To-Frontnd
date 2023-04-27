@@ -1,0 +1,16 @@
+.Home {
+    font-size: 23px;
+    text-decoration:none;
+}
+.h{
+    text-decoration: none;
+}
+.header{
+    text-align: center;
+    font-size: 23px;
+    font-weight: 600;
+    padding:20px 0 20px 0;
+    color: black;
+    text-shadow: 2px 2px white;
+    background-color: bisque;
+}
