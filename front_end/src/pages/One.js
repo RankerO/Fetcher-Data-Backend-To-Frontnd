@@ -29,7 +29,7 @@ function One() {
 
     const callAccount = async () => {
         try {
-            const res = await fetch('api/lowerThan5', {
+            const res = await fetch('http://localhost:5000/api/lowerThan5', {
                 method: 'GET',
                 headers: {
 
