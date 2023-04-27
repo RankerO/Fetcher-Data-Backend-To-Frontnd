@@ -11,7 +11,7 @@ function Five() {
   const [userData, setUserData] = useState([]);
   const callAccount = async () => {
     try {
-      const res = await fetch('api/DataofTop10Cities', {
+      const res = await fetch('http://localhost:5000/api/DataofTop10Cities', {
         method: 'GET',
         headers: {
 
