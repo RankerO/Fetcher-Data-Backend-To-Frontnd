@@ -20,8 +20,8 @@ app.use("/api", userRoutes);
 app.use(notFound);
 app.use(errorHandler);
 
-const PORT =5000
-app.listen(PORT, () => {
-    console.log(`Server Started on PORT ${PORT}`.yellow.bold);
+const port =process.env.PORT||5000
+app.listen(port, () => {
+    console.log(`Server Started on PORT ${port}`.yellow.bold);
 });
 
