@@ -15,8 +15,7 @@
   "description": "Store Data in mongodb and displaying ",
   "main": "server.js",
   "scripts": {
-    "dev":"nodemon servers.js",
-    "build":"npm i"
+       "test": "nodemon server.js"
   },
   "author": "Ankit pandey",
   "license": "ISC"
